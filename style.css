@@ -8,6 +8,7 @@
 /*Generics*/
 body{
     font-family: sans-serif;
+    padding-top: 150px;
 }
 
 /*Utils*/
@@ -16,11 +17,19 @@ body{
     margin: 0 auto;
 }
 
-body{
-    background-color: black;
+header{
+    background-color: blue;
+    height: 80px;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-header{
-    background-color: black;
-    height: 200px;
-}
+
+
+
+
+
