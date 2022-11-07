@@ -8,7 +8,7 @@
 /*Generics*/
 body{
     font-family: sans-serif;
-    padding-top: 150px;
+    padding-top: 70px;
 }
 
 /*Utils*/
@@ -27,6 +27,24 @@ header{
     left: 0;
     width: 100%;
 }
+
+.full-page{
+    height: 100vh;
+    background-color: black;
+}
+
+div.image{
+    height: 50px;
+    width: 50px;
+    padding-left: 500px;
+    padding-top: 20px;
+
+}
+
+
+
+
+
 
 
 
