@@ -8,7 +8,7 @@
 /*Generics*/
 body{
     font-family: sans-serif;
-    padding-top: 70px;
+    color: white;
 }
 
 /*Utils*/
@@ -18,27 +18,38 @@ body{
 }
 
 header{
-    background-color: blue;
-    height: 80px;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.full-page{
-    height: 100vh;
     background-color: black;
+    border-bottom: 1px dashed white;
+    height: 80px;
+    line-height: 80px;
+    text-align: right;
+    padding-right: 5px;
 }
 
-div.image{
-    height: 50px;
-    width: 50px;
-    padding-left: 500px;
-    padding-top: 20px;
+header button{
+    margin-right: 5px;
+    padding: 7px;
+    background-color: #4a4a4a;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main{
+    background-color: black;
+    height: calc(100vh- 160px);
+    overflow: auto;
+}
 
+footer{
+    background-color: rgb(29, 25, 25);
+    height: 80px;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
