@@ -19,7 +19,6 @@ body{
 
 header{
     background-color: black;
-    border-bottom: 1px dashed white;
     height: 80px;
     line-height: 80px;
     text-align: right;
@@ -52,7 +51,25 @@ footer{
     flex-direction: column;
 }
 
+#gallery{
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
 
+#gallery .participant{
+    flex: 0 0 230px;
+    
+    padding: 3px;
+    min-height: 100px;
+    border: 2px dashed white;
+}
+.participant img{
+    max-width: 100%;
+    display: block;
+}
 
 
 
